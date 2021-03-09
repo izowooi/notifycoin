@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="@string/sync_header">
+        <SwitchPreferenceCompat
+            app:key="topic_500won"
+            app:summaryOff="@string/event_up_500_summary_off"
+            app:summaryOn="@string/event_up_500_summary_on"
+            app:title="@string/event_up_500" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
